@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
-import Events from "./components/events";
+import Events from "./components/Functional-events";
+import ClassEvents from "./components/class-events";
 
 //lesson no.1 - Function name should start with caps if you are using as a component
 //lesson no.2 - default is for some reason, don't ignore. (default) is stating we are exporting single class/function.
@@ -11,6 +12,7 @@ export default function App() {
     <div>
       <h1>Hello</h1>
       <Events />
+      <ClassEvents />
     </div>
   );
 }
