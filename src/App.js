@@ -1,11 +1,6 @@
 import React from "react";
 import "./styles.css";
-// import Events from "./components/Functional-events";
-// import ClassEvents from "./components/class-events";
-// import ConditionRender from "./components/conditional-rendering";
-// import List from "./components/lists-keys";
-import Form from "./components/forms";
-
+import FormikForm from "./components/formik";
 //lesson no.1 - Function name should start with caps if you are using as a component
 //lesson no.2 - default is for some reason, don't ignore. (default) is stating we are exporting single class/function.
 //lesson no.3 - jsx expression must have one parent element hence div tag.
@@ -14,7 +9,7 @@ export default function App() {
   return (
     <div>
       <h1>Hello</h1>
-      <Form />
+      <FormikForm />
     </div>
   );
 }
